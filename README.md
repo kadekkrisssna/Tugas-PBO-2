@@ -31,7 +31,7 @@ Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan *
 | Entitas    | Fitur                                                                 |
 |------------|------------------------------------------------------------------------|
 | `Villas`   | CRUD vila, daftar kamar, booking per vila, review per vila, cari ketersediaan |
-| `Customers`| CRUD customer, booking, review, lihat booking dan review              |
+| `Customers`| CRU customer, booking, review, lihat booking dan review              |
 | `Rooms`    | CRUD kamar (berelasi dengan vila)                                      |
 | `Vouchers` | CRUD voucher                                                          |
 | `Booking`  | Buat booking, lihat daftar booking                                    |
