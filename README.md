@@ -121,11 +121,11 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 
 ![Availability](screenshots/available_villas.png)
 
-> ⚠️ Tambahkan screenshot lain di folder `/screenshots` dan sesuaikan namanya.
+>  Tambahkan screenshot lain di folder `/screenshots` dan sesuaikan namanya.
 
 ---
 
-## 📌 Validasi dan Error Handling
+## Validasi dan Error Handling
 
 - Semua **request/response dalam format JSON**
 - `404` jika ID tidak ditemukan
@@ -138,17 +138,4 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
   }
   ```
 
----
 
-## 🛠 Tools yang Digunakan
-
-- Java 11+
-- SQLite
-- Postman (untuk pengujian endpoint)
-- Jackson (JSON parser)
-
----
-
-## 📝 Lisensi
-
-MIT License — bebas digunakan untuk pembelajaran dan pengembangan lanjutan.
