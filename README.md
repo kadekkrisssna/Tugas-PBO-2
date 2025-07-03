@@ -69,9 +69,9 @@ Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan *
 
 ---
 
-## 📬 Daftar Endpoint (Contoh)
+## Daftar Endpoint
 
-### 🏡 Villas
+### Villas
 
 - `GET /villas` — semua vila
 - `GET /villas/{id}` — detail vila
@@ -83,7 +83,7 @@ Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan *
 - `GET /villas/{id}/reviews` — review untuk vila
 - `GET /villas?ci_date=YYYY-MM-DD&co_date=YYYY-MM-DD` — cari ketersediaan vila
 
-### 👤 Customers
+### Customers
 
 - `GET /customers` — semua customer
 - `GET /customers/{id}` — detail customer
@@ -95,7 +95,7 @@ Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan *
 - `POST /customers/{id}/bookings` — buat booking
 - `POST /customers/{id}/bookings/{booking_id}/reviews` — tambah review
 
-### 🎫 Vouchers
+### Vouchers
 
 - `GET /vouchers` — semua voucher
 - `GET /vouchers/{id}` — detail voucher
@@ -105,7 +105,7 @@ Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan *
 
 ---
 
-## 📷 Screenshot Postman
+## Screenshot Postman
 
 Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Postman:
 
