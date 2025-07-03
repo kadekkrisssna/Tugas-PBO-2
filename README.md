@@ -13,33 +13,20 @@ Project kali ini adalah API untuk melakukan pemesanan villa yang berbasis bahasa
 
 Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan **Java (tanpa framework)** dan **SQLite**.
 
-## 📁 Struktur Proyek
+## Struktur Proyek
 
 ```
-📦 src/
- ┣ 📂 controller/
- ┣ 📂 handler/
- ┣ 📂 model/
- ┣ 📂 database/
- ┗ 📜 Server.java
+src/
+ controller/
+ handler/
+ model/
+ database/
+Server.java
 ```
 
 ---
 
-## 🧾 Fitur yang Tersedia
-
-| Entitas    | Fitur                                                                 |
-|------------|------------------------------------------------------------------------|
-| `Villas`   | CRUD vila, daftar kamar, booking per vila, review per vila, cari ketersediaan |
-| `Customers`| CRU customer, booking, review, lihat booking dan review              |
-| `Rooms`    | CRUD kamar (berelasi dengan vila)                                      |
-| `Vouchers` | CRUD voucher                                                          |
-| `Booking`  | Buat booking, lihat daftar booking                                    |
-| `Review`   | Tambah dan lihat review                                               |
-
----
-
-## ▶️ Cara Menjalankan Program
+## Cara Menjalankan Program
 
 1. **Clone repository**
    ```bash
