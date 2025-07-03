@@ -15,16 +15,13 @@ Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan *
 
 ## Struktur Proyek
 
-```
 src/
  controller/
  handler/
  model/
  database/
 Server.java
-```
 
----
 
 ## Cara Menjalankan Program
 
@@ -57,7 +54,7 @@ Server.java
 ---
 
 ## Daftar Endpoint
-
+--
 ### Villas
 
 - `GET /villas` — semua vila
