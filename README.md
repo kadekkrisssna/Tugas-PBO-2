@@ -53,42 +53,6 @@ Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan *
 
 ---
 
-## Daftar Endpoint
---
-### Villas
-
-- `GET /villas` — semua vila
-- `GET /villas/{id}` — detail vila
-- `POST /villas` — tambah vila
-- `PUT /villas/{id}` — edit vila
-- `DELETE /villas/{id}` — hapus vila
-- `GET /villas/{id}/rooms` — daftar kamar
-- `GET /villas/{id}/bookings` — booking untuk vila
-- `GET /villas/{id}/reviews` — review untuk vila
-- `GET /villas?ci_date=YYYY-MM-DD&co_date=YYYY-MM-DD` — cari ketersediaan vila
-
-### Customers
-
-- `GET /customers` — semua customer
-- `GET /customers/{id}` — detail customer
-- `POST /customers` — register
-- `PUT /customers/{id}` — update
-- `DELETE /customers/{id}` — hapus
-- `GET /customers/{id}/bookings` — booking customer
-- `GET /customers/{id}/reviews` — review customer
-- `POST /customers/{id}/bookings` — buat booking
-- `POST /customers/{id}/bookings/{booking_id}/reviews` — tambah review
-
-### Vouchers
-
-- `GET /vouchers` — semua voucher
-- `GET /vouchers/{id}` — detail voucher
-- `POST /vouchers` — buat voucher
-- `PUT /vouchers/{id}` — update voucher
-- `DELETE /vouchers/{id}` — hapus voucher
-
----
-
 ## Screenshot Postman
 
 Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Postman:
@@ -277,13 +241,8 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 - `404` jika ID tidak ditemukan
 - `400` jika data tidak lengkap
 - Validasi format email, nomor telepon
-- Semua error ditangani melalui Exception dan ditampilkan dalam format JSON, misalnya:
-  ```json
-  {
-    "error": villas not found"
-  }
-  ```
-<hr style="width: 25%; border: 2px;"\>
+- Semua error ditangani melalui Exception dan ditampilkan dalam format JSON, dan contohnya sebagai berikut:
 ![image](https://github.com/user-attachments/assets/e86ae8d9-d9e4-4bd7-a4d8-af2462ceebb5)
+
 
 ![Image](https://github.com/user-attachments/assets/75efcc70-67c4-4fa8-8723-216c257905ea)
