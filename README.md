@@ -93,10 +93,13 @@ Server.java
 
 Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Postman:
 
-### `POST /customers`
+### `GET`
+
+'ENDPOINT: /villas'
+fungsi: 'Melihat semua data villa yang terssedia'
 
 (> ![Image](https://github.com/user-attachments/assets/08fb805f-48fe-45c1-aa64-42f2a634f0a4)
-Melihat semua data villa yang terssedia
+
 
 ---
 
