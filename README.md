@@ -93,7 +93,7 @@ Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan *
 
 Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Postman:
 
-### `GET`
+### `VILLAS`
 
 - METHOD : `GET`
 - ENDPOINT : `/villas`
@@ -123,10 +123,17 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 
 ---
 
-- METHOD : `GET`
+- METHOD : `/villas`
 - ENDPOINT : `/villas?ci_date=2025-07-10 14:00:00&co_date=2025-07-12 12:00:00`
 - FUNGSI : Melihat semua ketersediaan villa dari tanggal 10 juli (checkin) dan 12 juli (checkout)
 ![Image](https://github.com/user-attachments/assets/3d7a91ce-7321-4174-bac5-606d0443a3fc)
+
+---
+
+- METHOD : `GET`
+- ENDPOINT : `/villas?ci_date=2025-07-10 14:00:00&co_date=2025-07-12 12:00:00`
+- FUNGSI : Melihat semua ketersediaan villa dari tanggal 10 juli (checkin) dan 12 juli (checkout)
+![Image](https://github.com/user-attachments/assets/6ae2f82d-4acd-4c48-8839-6b4984feb6cd)
 
 ---
 
