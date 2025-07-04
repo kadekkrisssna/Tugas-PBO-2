@@ -269,35 +269,7 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 - FUNGSI : Menghapus data vouchers dengan id:3
 ![Image](https://github.com/user-attachments/assets/ecf783d1-cf87-4d30-a420-03d80358b849)
 
-
-
-
----
-### `GET /villas`
-
-![GET /villas](screenshots/get_villas.png)
-
----
-
-### `POST /customers/{id}/bookings`
-
-![POST bookings](screenshots/post_booking.png)
-
----
-
-### `POST /customers/{id}/bookings/{id}/reviews`
-
-![POST review](screenshots/post_review.png)
-
----
-
-### `GET /villas?ci_date=2025-07-01&co_date=2025-07-05`
-
-![Availability](screenshots/available_villas.png)
-
->  Tambahkan screenshot lain di folder `/screenshots` dan sesuaikan namanya.
-
----
+----
 
 ## Validasi dan Error Handling
 
@@ -311,5 +283,9 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
     "error": "Customer not found"
   }
   ```
+
+---
+
+![image](https://github.com/user-attachments/assets/e86ae8d9-d9e4-4bd7-a4d8-af2462ceebb5)
 
 
