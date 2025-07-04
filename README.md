@@ -256,10 +256,22 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 
 ---
 
+- METHOD : `PUT`
+- ENDPOINT : `/vouchers/3`
+- FUNGSI : Mengubah data vouchers dengan id:3
+![Image](https://github.com/user-attachments/assets/e61552be-6dc8-4766-baf9-bab1161c333a)
+
+---
+
+- METHOD : `DELETE`
+- ENDPOINT : `/vouchers/3`
+- FUNGSI : Menghapus data vouchers dengan id:3
+![Image](https://github.com/user-attachments/assets/ecf783d1-cf87-4d30-a420-03d80358b849)
 
 
 
 
+---
 ### `GET /villas`
 
 ![GET /villas](screenshots/get_villas.png)
