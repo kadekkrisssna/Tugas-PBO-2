@@ -122,6 +122,14 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 ![Image](https://github.com/user-attachments/assets/6ab2874b-24db-4b08-b569-63184f984589)
 
 ---
+
+- METHOD : `GET`
+- ENDPOINT : `/villas?ci_date=2025-07-10 14:00:00&co_date=2025-07-12 12:00:00`
+- FUNGSI : Melihat semua ketersediaan villa dari tanggal 10 juli (checkin) dan 12 juli (checkout)
+![Image](https://github.com/user-attachments/assets/3d7a91ce-7321-4174-bac5-606d0443a3fc)
+
+---
+
 ### `GET /villas`
 
 ![GET /villas](screenshots/get_villas.png)
