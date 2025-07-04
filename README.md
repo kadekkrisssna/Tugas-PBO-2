@@ -131,22 +131,22 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 ---
 
 - METHOD : `POST`
-- ENDPOINT : `/villas/4/rooms`
-- FUNGSI : Menambah tipe kamar pada villas dengan id:4
+- ENDPOINT : `/villas`
+- FUNGSI : Menambah viila baru ke daftar
 ![Image](https://github.com/user-attachments/assets/6ae2f82d-4acd-4c48-8839-6b4984feb6cd)
 
 ---
 
 - METHOD : `POST`
-- ENDPOINT : `/villas`
-- FUNGSI : Menambah viila baru ke daftar
+- ENDPOINT : `/villas/4/rooms`
+- FUNGSI : Menambah tipe kamar pada villas dengan id:4
 ![Image](https://github.com/user-attachments/assets/79b1c8b8-ee9c-42b0-9289-91ccff896ef5)
 
 ---
 
 - METHOD : `PUT`
-- ENDPOINT : `/villas/`
-- FUNGSI : Menambah viila baru ke daftar
+- ENDPOINT : `/villas/4`
+- FUNGSI : Mengubah data villas dengan id:4
 ![Image](https://github.com/user-attachments/assets/79b1c8b8-ee9c-42b0-9289-91ccff896ef5)
 
 ---
