@@ -14,13 +14,14 @@ Project kali ini adalah API untuk melakukan pemesanan villa yang berbasis bahasa
 Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan **Java (tanpa framework)** dan **SQLite**.
 
 ## Struktur Proyek
+```
  src/                           ← Folder utama berisi semua source code Java
   📂 controller/                ← Berisi interaksi dengan database
   📂 handler/                   ← Berisi handler untuk masing-masing endpoint HTTP (GET/POST/PUT/DELETE) dan juga exeption untuk error respone
   📂 model/                     ← Berisi class-model/data (seperti Customer, Villa, Booking, dll)
   📂 database/                  ← Berisi konfigurasi koneksi ke database SQLite
      Server.java                ← Kelas utama untuk menjalankan HTTP server dan daftarkan semua route
-
+```
 
 ## Cara Menjalankan Program
 
