@@ -103,9 +103,9 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 ---
 
 - METHOD : `GET`
-- ENDPOINT : `/villas`
+- ENDPOINT : `/villas/1`
 - FUNGSI : Melihat semua data villa yang terssedia
-![Image](https://github.com/user-attachments/assets/08fb805f-48fe-45c1-aa64-42f2a634f0a4)
+![Image](https://github.com/user-attachments/assets/6f6d46d8-af9a-46ad-b39a-48f5dddfa5aa)
 
 ---
 ### `GET /villas`
