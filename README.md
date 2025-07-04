@@ -147,7 +147,7 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 - METHOD : `PUT`
 - ENDPOINT : `/villas/4`
 - FUNGSI : Mengubah data villas dengan id:4
-![Image](https://github.com/user-attachments/assets/79b1c8b8-ee9c-42b0-9289-91ccff896ef5)
+![Image](https://github.com/user-attachments/assets/20c784fc-3e62-44eb-bf58-e58680e59143)
 
 ---
 
