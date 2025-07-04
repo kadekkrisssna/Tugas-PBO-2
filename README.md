@@ -93,7 +93,7 @@ Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan *
 
 Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Postman:
 
-### `VILLAS`
+### `BAGIAN VILLAS`
 
 - METHOD : `GET`
 - ENDPOINT : `/villas`
@@ -172,11 +172,43 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 
 ---
 
-### `VILLAS`
 
 ---
 
+### `BAGIAN CUSTOMERS`
+
+- METHOD : `GET`
+- ENDPOINT : `/customers`
+- FUNGSI : Menampilkan semua data customers
+![Image](https://github.com/user-attachments/assets/38ebfa81-a7e2-4241-80c7-a7c6a69d1ba7)
+
 ---
+
+- METHOD : `GET`
+- ENDPOINT : `/customers/1`
+- FUNGSI : Menampilkan data customers dengan id:1
+![Image](https://github.com/user-attachments/assets/616e1282-40b7-45ac-8fe8-6fc3f14f8b1b)
+
+---
+
+- METHOD : `GET`
+- ENDPOINT : `/customers/1/bookings`
+- FUNGSI : Menampilkan semua data bookings yang dilakukan oleh customers dengan id:1
+![Image](https://github.com/user-attachments/assets/77c86c8f-92c9-4837-80c2-088aae8d744e)
+
+---
+
+- METHOD : `GET`
+- ENDPOINT : `/customers/1/reviews`
+- FUNGSI : Menampilkan semua data reviews yang dilakukan oleh customers dengan id:1
+![Image](https://github.com/user-attachments/assets/a78b53e8-af79-4b54-a17e-168ad57879b6)
+
+---
+
+- METHOD : `POST`
+- ENDPOINT : `/customers/`
+- FUNGSI : Menambahkan data customers baru
+
 
 
 
