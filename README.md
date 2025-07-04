@@ -226,17 +226,35 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 
 ---
 
-- METHOD : `GET`
+- METHOD : `PUT`
 - ENDPOINT : `/customers/4`
 - FUNGSI : Mengubah data customers dengan id:4
 ![Image](https://github.com/user-attachments/assets/1f49418f-e0cc-4c30-b90b-a253a0f8602f)
 
+---
+---
+---
 
+- METHOD : `GET`
+- ENDPOINT : `/vouchers`
+- FUNGSI : Menampilkan semua data vouchers
+![Image](https://github.com/user-attachments/assets/fa7f2648-03cd-4300-ac13-b19bf48b53f6)
 
+---
 
+- METHOD : `GET`
+- ENDPOINT : `/vouchers/2`
+- FUNGSI : Menampilkan data vouchers dengan id:2
+![Image](https://github.com/user-attachments/assets/f003ff71-5ca6-43f0-87c1-c2842c825a9a)
 
+---
 
+- METHOD : `POST`
+- ENDPOINT : `/vouchers`
+- FUNGSI : Menambah vouchers baru
+![Image](https://github.com/user-attachments/assets/dfef46f3-8f31-449c-82eb-1ea3114dd81e)
 
+---
 
 
 
