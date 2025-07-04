@@ -108,6 +108,8 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 ![Image](https://github.com/user-attachments/assets/6f6d46d8-af9a-46ad-b39a-48f5dddfa5aa)
 
 ---
+![Image](https://github.com/user-attachments/assets/6197fc7d-0c60-45eb-94e1-ec32af0403ae)
+---
 ### `GET /villas`
 
 ![GET /villas](screenshots/get_villas.png)
