@@ -2,9 +2,9 @@
 
 # NAMA KELOMPOK
 - Kadek Krisna Wira Sanjaya (2405551177)
+- I Putu Eka Aditha Divayana (2405551181)
 - Dhani Satriawan (2405551129)
 - Tyo Putra Kharianta (2405551162)
-- I Putu Eka Aditha Divayana (2405551181)
 
 Project kali ini adalah API untuk melakukan pemesanan villa yang berbasis bahasa pemrograman java, API disini digunakan untuk PUT, POST, GET, dan DELETE yang nantinya akan memanipulasi database yang sudah dibuat. Pengujian dari API disini menggunakan aplikasi POSTMAN.
 
@@ -277,15 +277,14 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 - `404` jika ID tidak ditemukan
 - `400` jika data tidak lengkap
 - Validasi format email, nomor telepon
-- Semua error ditangani melalui Exception dan ditampilkan dalam format JSON:
+- Semua error ditangani melalui Exception dan ditampilkan dalam format JSON, misalnya:
   ```json
   {
-    "error": "Customer not found"
+    "error": villas not found"
   }
   ```
 
----
 
 ![image](https://github.com/user-attachments/assets/e86ae8d9-d9e4-4bd7-a4d8-af2462ceebb5)
 
-
+![Image](https://github.com/user-attachments/assets/75efcc70-67c4-4fa8-8723-216c257905ea)
