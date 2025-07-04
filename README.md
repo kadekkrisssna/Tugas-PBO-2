@@ -158,8 +158,16 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 
 ---
 
+- METHOD : `DELETE`
+- ENDPOINT : `/villas/4/rooms/3`
+- FUNGSI : Menghapus data kamar pada villas dengan id villa:4 dan id kamar:3
+![Image](https://github.com/user-attachments/assets/bb6bb05c-4d73-4f5b-9454-9163b3dde97b)
+
+---
 
 
+
+---
 
 
 
