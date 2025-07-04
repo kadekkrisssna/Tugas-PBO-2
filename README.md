@@ -95,7 +95,7 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 
 ### `POST /customers`
 
-![POST /customers](screenshots/post_customers.png)
+![POST /customers](![Image](https://github.com/user-attachments/assets/08fb805f-48fe-45c1-aa64-42f2a634f0a4))
 
 ---
 
