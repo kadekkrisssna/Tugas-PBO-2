@@ -283,8 +283,7 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
     "error": villas not found"
   }
   ```
-<hr>
-
+<hr style="width: 25%; border: 2px;">
 ![image](https://github.com/user-attachments/assets/e86ae8d9-d9e4-4bd7-a4d8-af2462ceebb5)
 
 ![Image](https://github.com/user-attachments/assets/75efcc70-67c4-4fa8-8723-216c257905ea)
