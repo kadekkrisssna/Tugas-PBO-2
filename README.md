@@ -234,13 +234,14 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 ----
 
 # Validasi dan Error Handling
-
+Semua error ditangani melalui Exception dan ditampilkan dalam format JSON, dan contohnya sebagai berikut:
 - Semua **request/response dalam format JSON**
 - `404` jika ID tidak ditemukan
 - `400` jika data tidak lengkap
 - Validasi format email, nomor telepon
-- Semua error ditangani melalui Exception dan ditampilkan dalam format JSON, dan contohnya sebagai berikut:
+  
+Pada gambar dibawah itu terjadi error `404 Not Found`, yang artinya tidak ada villas dengan id:10
 ![image](https://github.com/user-attachments/assets/e86ae8d9-d9e4-4bd7-a4d8-af2462ceebb5)
 
-
+Pada gambar dibawah itu terjadi error `400 Bad Request`, yang artinya ketika melakukan update data, data tidak lengkap, atau ada field yang belum terisi
 ![Image](https://github.com/user-attachments/assets/75efcc70-67c4-4fa8-8723-216c257905ea)
