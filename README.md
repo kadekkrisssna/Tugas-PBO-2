@@ -143,6 +143,17 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 ![Image](https://github.com/user-attachments/assets/79b1c8b8-ee9c-42b0-9289-91ccff896ef5)
 
 ---
+
+- METHOD : `PUT`
+- ENDPOINT : `/villas/`
+- FUNGSI : Menambah viila baru ke daftar
+![Image](https://github.com/user-attachments/assets/79b1c8b8-ee9c-42b0-9289-91ccff896ef5)
+
+---
+
+
+![Image](https://github.com/user-attachments/assets/a3ab620c-2788-499c-b79d-e67bdcb37a9d)
+
 ### `GET /villas`
 
 ![GET /villas](screenshots/get_villas.png)
