@@ -1,13 +1,11 @@
 # Tugas-PBO-2
+Project kali ini adalah API untuk melakukan pemesanan villa yang berbasis bahasa pemrograman java, API disini digunakan untuk PUT, POST, GET, dan DELETE yang nantinya akan memanipulasi database yang sudah dibuat. Untuk pengujian dari API disini menggunakan aplikasi POSTMAN yang nantinya memiliki beberapa endpoint untuk manipulasi data.
 
 # NAMA KELOMPOK
 - Kadek Krisna Wira Sanjaya (2405551177)
 - I Putu Eka Aditha Divayana (2405551181)
 - Dhani Satriawan (2405551129)
 - Tyo Putra Kharianta (2405551162)
-
-Project kali ini adalah API untuk melakukan pemesanan villa yang berbasis bahasa pemrograman java, API disini digunakan untuk PUT, POST, GET, dan DELETE yang nantinya akan memanipulasi database yang sudah dibuat. Pengujian dari API disini menggunakan aplikasi POSTMAN.
-
 
 # Villa Booking API (Java + SQLite)
 
@@ -23,7 +21,7 @@ Sebuah aplikasi **REST API sederhana** untuk sistem pemesanan vila menggunakan *
      Server.java         ← Kelas utama untuk menjalankan HTTP server dan daftarkan semua route
 ```
 
-## Cara Menjalankan Program
+## Cara Menjalankan Kode Program
 
 1. **Clone repository**
    ```bash
