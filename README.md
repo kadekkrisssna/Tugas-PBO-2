@@ -208,6 +208,36 @@ Berikut adalah contoh screenshot penggunaan setiap endpoint API menggunakan Post
 - METHOD : `POST`
 - ENDPOINT : `/customers/`
 - FUNGSI : Menambahkan data customers baru
+![Image](https://github.com/user-attachments/assets/f78a6c82-0691-46c8-8f80-8bcd19a9edad)
+
+---
+
+- METHOD : `POST`
+- ENDPOINT : `/customers/bookings/4`
+- FUNGSI : Customers dengan id:4 melakukan pemesanan villas
+![Image](https://github.com/user-attachments/assets/1e694edc-586f-4a59-8463-91ccedf931ad)
+
+---
+
+- METHOD : `POST`
+- ENDPOINT : `/customers/bookings`
+- FUNGSI : Customers dengan id:4 memberikan rating
+![Image](https://github.com/user-attachments/assets/2ae35709-9bda-4493-9ee2-40b41b6b906d)
+
+---
+
+- METHOD : `GET`
+- ENDPOINT : `/customers/4`
+- FUNGSI : Mengubah data customers dengan id:4
+![Image](https://github.com/user-attachments/assets/1f49418f-e0cc-4c30-b90b-a253a0f8602f)
+
+
+
+
+
+
+
+
 
 
 
